@@ -80,3 +80,40 @@ section{
     border-top: #ffffff 1px solid;
     border-bottom: #ffffff 1px solid;
 }
+
+.Logo img{
+    width: 400px;
+    
+}
+
+h2{
+    font-size: larger;
+}
+
+.RodaPe img{
+    width: 50px;
+    
+}
+.RodaPe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background-color: #ffffff;
+}
+
+footer ul li a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #202020;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    display: inline;
+    
+}
