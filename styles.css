@@ -2,19 +2,19 @@ body {
     color: #ffffff;
     background-color: #111111;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
     
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 90px;
     font-family: "Dracula";
 }
 
 @font-face {
     font-family: "Dracula";
     src:
-        url("/Imagens_Fontes/Dracula-Condensed.ttf") format("woff2"),
-        url("/Imagens_Fontes/Dracula.ttf") format("woff");
+        url("/Imagens_Fontes/Swamp\ Ninja.ttf") format("woff");
 }
 
 .Logo {
@@ -23,6 +23,7 @@ h1 {
         justify-content: center;
         align-items: center;
 }
+
 header ul li a {
     text-decoration: none;
     margin-right: 15px;
@@ -43,6 +44,7 @@ header ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 35px;
 }
 
 header, main, footer {
@@ -59,17 +61,22 @@ a{
 
 .Logo{
     width: 100%;
-    height: 100px;
+    height: 115px;
 }
 
 main{
-    width: 90%;
+    width: 95%;
 }
 .Principal{
     
     background: #202020;
-    height: 100%;
-    padding: 3%, 0 ,3% ,0;
+    width: 80%;
+    margin: 10%;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
 
-    
+section{
+    border-top: #ffffff 1px solid;
+    border-bottom: #ffffff 1px solid;
 }
