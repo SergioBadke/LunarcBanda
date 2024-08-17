@@ -43,8 +43,7 @@ header ul li {
 .Links{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 35px;
+    align-items: center;box-sizing: calc(100%-10);
 }
 
 header, main, footer {
