@@ -7,7 +7,7 @@ body {
     background-color: #111111;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
-    
+
 }
 
 h1 {
@@ -23,9 +23,9 @@ h1 {
 
 .Logo {
     font-family: "Dracula";
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 header ul li a {
@@ -42,37 +42,41 @@ header ul {
 
 header ul li {
     display: inline;
-    
+
 }
 
-.Links{
+.Links {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-header, main, footer {
+header,
+main,
+footer {
     width: 80%;
     /*border: dotted yellow;*/
-    margin: 0 auto; /*centralizar caixas na pagina*/
+    margin: 0 auto;
+    /*centralizar caixas na pagina*/
 }
 
-a{
+a {
     text-decoration: none;
     margin-right: 15px;
     color: #ffffff;
 }
 
-.Logo{
+.Logo {
     width: 100%;
     height: 115px;
 }
 
-main{
+main {
     width: 95%;
 }
-.Principal{
-    
+
+.Principal {
+
     background: #202020;
     width: 80%;
     margin: 10%;
@@ -80,25 +84,26 @@ main{
     margin-bottom: 1px;
 }
 
-section{
+section {
     border-top: #ffffff 1px solid;
     border-bottom: #ffffff 1px solid;
 }
 
-.Logo img{
+.Logo img {
     width: 400px;
-    
+
 }
 
-h2{
+h2 {
     font-size: larger;
 }
 
-.RodaPe img{
+.RodaPe img {
     width: 50px;
-    
+
 }
-.RodaPe{
+
+.RodaPe {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,8 +125,17 @@ footer ul {
 
 footer ul li {
     display: inline;
-    
+
 }
-footer{
+
+footer {
+    width: 100%;
+}
+
+main {
+    min-height: 90vh;
+}
+
+.ImagensMain img {
     width: 100%;
 }
